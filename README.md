@@ -24,10 +24,6 @@ But, if pressed, how would you **prove** it?
 
 ## Part I - WeatherPy
 
-### Weather Py Outputs
-
-
-
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
@@ -37,7 +33,10 @@ The first requirement is to create a series of scatter plots to showcase the fol
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-After each plot, add a sentence or two explaining what the code is analyzing.
+![Plot](WeatherPy/Output_Plots/MAX_TEMP_vs_LAT.png)
+![Plot](WeatherPy/Output_Plots/LAT_vs_HUMIDITY.png)
+![Plot](WeatherPy/Output_Plots/LAT_vs_CLOUD.png)
+![Plot](WeatherPy/Output_Plots/LAT_vs_WIND_SPEED.png)
 
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
@@ -49,6 +48,8 @@ The second requirement is to run linear regression on each relationship. This ti
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
+
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
 
