@@ -8,7 +8,7 @@ Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
 But, if pressed, how would you **prove** it?
 
-![Equator](Images/equatorsign.png)
+![Equator](Read_Images/equatorsign.png)
 
 ### Before You Begin
 
@@ -23,6 +23,10 @@ But, if pressed, how would you **prove** it?
 5. Push the above changes to GitHub.
 
 ## Part I - WeatherPy
+
+### Weather Py Outputs
+
+
 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
@@ -67,7 +71,7 @@ To complete this part of the assignment,you will need to do the following:
 
 * Create a heat map that displays the humidity for every city from Part I.
 
-  ![heatmap](Images/heatmap.png)
+  ![heatmap](Read_Images/heatmap.png)
 
 * Narrow down the DataFrame to find your ideal weather condition. For example:
 
@@ -85,7 +89,7 @@ To complete this part of the assignment,you will need to do the following:
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-  ![hotel map](Images/hotel_map.png)
+  ![hotel map](Read_Images/hotel_map.png)
 
 As final considerations:
 
