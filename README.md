@@ -32,6 +32,7 @@ The first requirement is to create a series of scatter plots to showcase the fol
 * Humidity (%) vs. Latitude
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
+
 ![Plot](WeatherPy/Output_Plots/MAX_TEMP_vs_LAT.png)
 ![Plot](WeatherPy/Output_Plots/LAT_vs_HUMIDITY.png)
 ![Plot](WeatherPy/Output_Plots/LAT_vs_CLOUD.png)
