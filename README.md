@@ -23,11 +23,6 @@ But, if pressed, how would you **prove** it?
 5. Push the above changes to GitHub.
 
 ## Part I - WeatherPy
-![Plot](WeatherPy/Output_Plots/LAT_vs_CLOUD.png)
-![Plot](WeatherPy/Output_Plots/LAT_vs_HUMIDITY.png)
-![Plot](WeatherPy/Output_Plots/LAT_vs_WIND_SPEED.png)
-![Plot](WeatherPy/Output_Plots/MAX_TEMP_vs_LAT.png)
-
 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
