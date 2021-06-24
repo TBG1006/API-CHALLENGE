@@ -48,6 +48,7 @@ The second requirement is to run linear regression on each relationship. This ti
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
 ![Plot](WeatherPy/REGRES_OUTPUT/NH_CLOUDINESS_vs_LAT_REGRESS.png)
 ![Plot](WeatherPy/REGRES_OUTPUT/NH_HUMIDITY_vs_LAT_REGRESS.png)
 ![Plot](WeatherPy/REGRES_OUTPUT/NH_LAT_vs_WINDSPEED.png)
