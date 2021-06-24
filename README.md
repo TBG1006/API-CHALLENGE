@@ -23,8 +23,6 @@ But, if pressed, how would you **prove** it?
 5. Push the above changes to GitHub.
 
 ## Part I - WeatherPy
-
-### Weather Py Outputs
 ![Plot](WeatherPy/Output_Plots/LAT_vs_CLOUD.png)
 ![Plot](WeatherPy/Output_Plots/LAT_vs_HUMIDITY.png)
 ![Plot](WeatherPy/Output_Plots/LAT_vs_WIND_SPEED.png)
@@ -36,10 +34,13 @@ In this example, you'll be creating a Python script to visualize the weather of 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
+* ![Plot](WeatherPy/Output_Plots/MAX_TEMP_vs_LAT.png)
 * Humidity (%) vs. Latitude
+* ![Plot](WeatherPy/Output_Plots/LAT_vs_HUMIDITY.png)
 * Cloudiness (%) vs. Latitude
+* ![Plot](WeatherPy/Output_Plots/LAT_vs_CLOUD.png)
 * Wind Speed (mph) vs. Latitude
-
+![Plot](WeatherPy/Output_Plots/LAT_vs_WIND_SPEED.png)
 After each plot, add a sentence or two explaining what the code is analyzing.
 
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
