@@ -48,8 +48,14 @@ The second requirement is to run linear regression on each relationship. This ti
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
-
-
+![Plot](WeatherPy/REGRES_OUTPUT/NH_CLOUDINESS_vs_LAT_REGRESS.png)
+![Plot](WeatherPy/REGRES_OUTPUT/NH_HUMIDITY_vs_LAT_REGRESS.png)
+![Plot](WeatherPy/REGRES_OUTPUT/NH_LAT_vs_WINDSPEED.png)
+![Plot](WeatherPy/REGRES_OUTPUT/NH_MAX_TEMP_vs_LAT_REGRESS.png)
+![Plot](WeatherPy/REGRES_OUTPUT/SH_CLOUDINESS_vs_LAT-REGRESS.png)
+![Plot](WeatherPy/REGRES_OUTPUT/SH_HUMIDITY_vs_LAT_REGRESS.png)
+![Plot](WeatherPy/REGRES_OUTPUT/SH_LAT_vs_WIND_SPEED.png)
+![Plot](WeatherPy/REGRES_OUTPUT/SH_MAX_TEMP_vs_LAT_REGRESS.png)
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
 
